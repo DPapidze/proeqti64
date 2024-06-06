@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: f1;
+            src: url("fonts/PasseroOne-Regular.ttf")
+        }
+        .td2{
+            font-family: "f1";
+            font-size: 15px;
+        }
+        table, th {
+            border-collapse: collapse;
+            border-color: #DADADA;
+        }
+        th {
+            background-color: #F9F9F9;
+        }
+        .th1, .td1{
+            width: 72px; height: 57px;
+        }
+        
+        .th2, .td2{
+            width: 444px; height: 57px;
+        }
+        .th2{
+            text-align: left;
+            padding-left: 15px;
+        }
+        .th3, .td3{
+            width: 276px; height: 57px;
+        }
+        .th4, .td4, .td5{
+            width: 251px; height: 57px;
+        }
+        .th1, .th3, .th4, .td1, .td3, .td4, .td5{
+            text-align: center;
+        }
+        .td2 {
+            text-align: left;
+            padding-left: 25px;
+        }
+        .td3{
+            color: red;
+        }
+        
+        .b1{
+            width: 115px;
+            height: 36px;
+            background-color: yellow;
+            border: 0px;
+        }
+        .b2{
+            width: 115px;
+            height: 36px;
+            background-color: red;
+            border: 0px;
+        }
+        .th6, .th7, .th8{
+            background-color: white;
+            text-align: left;
+        }
+        .th9{
+            background-color: white;
+            text-align: center;
+        }
+        .th7{
+            padding-left: 5px;
+        }
+        .th8{
+            padding-left: 8px;
+        }
+        .in1{
+            border-radius: 10px;
+            Width: 201px;
+            height: 35px;
+            margin-top: 5px;
+        }
+        .in2{
+            border-radius: 10px;
+            Width: 593px;
+            height: 35px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        .in3{
+            border-radius: 10px;
+            Width: 201px;
+            height: 35px;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+        .td6, .td7, .td8, .in1, .in2, .in3{
+            border-color: #DADADA;
+        }
+       .b3{
+            background-color: #FFD43A;
+            Width: 115px;
+            Height: 45px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 5px;
+        }
+        .container{
+            width: 1174px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        table{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Search</h2>
+    <form>
+        <table>
+            <tr>
+                <th class="th6">ID</th>
+                <th class="th7">Title</th>
+                <th class="th8">Created at</th>
+                <th class="th9">Action</th>
+            </tr>
+            <tr>
+                <td class="td6"><input class="in1" type="text" placeholder="ID"></td>
+                <td class="td7"><input class="in2" type="text" placeholder="Title"></td>
+                <td class="td8"><input class="in3" type="text" placeholder="Created at"></td>
+                <td class="td9"><button class="b3">Search</button></td>
+            </tr>
+        </table>
+    </form>
+    <br><br><br>
+    <h2>News Table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="th1">ID</th>
+                <th class="th2">Title</th>
+                <th class="th3">Created at</th>
+                <th class="th4">Action</th>
+                <th class="th5">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="td1">1</td>
+                <td class="td2">Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td class="td3">2021/12/01</td>
+                <td class="td4"><button class="b1">Edit</button></td>
+                <td class="td5"><button class="b2">Edit</button></td>
+            </tr>
+            <tr>
+                <td class="td1">2</td>
+                <td class="td2">Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td class="td3">2021/12/01</td>
+                <td class="td4"><button class="b1">Edit</button></td>
+                <td class="td5"><button class="b2">Edit</button></td>
+            </tr>
+            <tr>
+                <td class="td1">3</td>
+                <td class="td2">Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td class="td3">2021/12/01</td>
+                <td class="td4"><button class="b1">Edit</button></td>
+                <td class="td5"><button class="b2">Edit</button></td>
+            </tr>
+            <tr>
+                <td class="td1">4</td>
+                <td class="td2">Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td class="td3">2021/12/01</td>
+                <td class="td4"><button class="b1">Edit</button></td>
+                <td class="td5"><button class="b2">Edit</button></td>
+            </tr>
+            <tr>
+                <td class="td1">5</td>
+                <td class="td2">Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td class="td3">2021/12/01</td>
+                <td class="td4"><button class="b1">Edit</button></td>
+                <td class="td5"><button class="b2">Edit</button></td>
+            </tr>
+            <tr>
+                <td class="td1">6</td>
+                <td class="td2">Lorem Ipsum is simply dummy text of the printing and typesetting</td>
+                <td class="td3">2021/12/01</td>
+                <td class="td4"><button class="b1">Edit</button></td>
+                <td class="td5"><button class="b2">Edit</button></td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
